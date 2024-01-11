@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;						
+	-webkit-box-sizing: border-box;	 /*le da formato a la pagina */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	  
+} 
+header#header{
+	background-color:transparent;
+	margin-left:140px;
+	margin-right:140px;
+}
+body{
+	background-color:black;
+	background-image: url("../IMG/fondo_general.jpg");
+	background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div#general{
+	position:relative;
+	margin:auto;
+	margin-top:0px;			/*espacio que se le da para el submemenú*/
+	width:99%;
+	height:305px;
+	background-color:transparent;
+	text-align:center;
+	color:lightblue;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+div#derecho{
+	position:relative;
+	float:right;
+	width:75%;
+	height:15px;
+	background-color:transparent;			/*color del Div contenedor derecho*/
+	background-position: center;
+	color:red;
+	
+}
+div#aside{
+	
+	background-color:transparent;		/*#043FB8	*/
+	color:black;
+	float:left;
+	width:25%;
+	height:75px;
+	color:orange;
+	margin-bottom: 0px;	
+}
+div#Articulo{
+	
+	background-color:transparent;		/*#043FB8	*/
+	color:black;
+	float: left;
+	width:75%;
+	height:60px;
+	color:orange;
+	
+}
+div#footer{
+	
+	background-color:transparent;
+	color:BLACK;
+	width:99%;
+	height:155px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+div#interfooter{
+	background-color:transparent;
+	position:relative;
+	color:black;
+	width:77%;
+	height:17px;
+	
+}
+div#interfooter1{
+	background-color:transparent;
+	position:relative;
+	color:black;
+	width:77%;
+	height:135px;
+	
+}
+
+h1{
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:#41A569;				/*color original de la imagen escudo#41A569*/
+}
+h5{
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:black;				/*color original de la imagen escudo#41A569*/
+}
+h2{
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h3{
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+h4{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h6{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+.form-horizontal h4{
+  color:#41A569;			/*#fff*/
+  text-shadow:2px 2px 2px  #000;		/*sombra de la ltra del titulo de la pagina*/
+}
+.form-horizontal h1{
+  color:#41A569;			/*#fff*/
+  text-shadow:2px 2px 2px  #000;		/*sombra de la ltra del titulo de la pagina*/
+}
+.navegacion{					/*estilos aplicados al menu de navegacion superior*/
+	
+		width: 1050px;
+		margin: auto;
+		background:;			/*lightblue*/
+	
+}
+.navegacion ul{
+	list-style: fixed;
+}
+.menu > li{
+	position: relative; 
+	display: inline-block;
+	color: red;
+	
+}
+.menu > li a{
+	display: block;
+	padding: 15px 15px;
+	color: white;			/* color inicial del menu superior #78FF5D*/
+	font-family: "comic sans ms"; /*Formato de letra del menu de navegacion*/
+	text-decoration: none;
+
+}
+.menu > li a:hover{
+	color:#41A569; /*#CE7D35 color de la letra al estar el mause encima*/
+
+}
+.margen{
+	position:relaitive;
+	background:0;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	color:#41A569;
+}
+

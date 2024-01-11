@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;						
+	-webkit-box-sizing: border-box;	 /*le da formato a la pagina */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	  
+} 
+header#header{
+	background-color:0;
+	margin-left:10px;
+	margin-right:10px;
+}
+body{
+	background-color:black;
+	background-image: url(IMG/fondo_general.jpg);
+	/*background-position: center;*/
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div#general{
+	position:relative;
+	margin:auto;
+	margin-top:0px;			/*espacio que se le da para el submemenú*/
+	width:1560px;
+	height:375px;
+	background-color:0;
+	text-align:center;
+	color:lightblue;
+	border-width:1px solid #fff;
+}
+div#fondo-integrantes{
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:100%;
+	background-image: url(IMG/ESCUDO-ORIGINAL-FONDO-BLANCO.PNG);
+	background-color:white;
+	
+}
+div#derecho{
+	position:relative;
+	float:right;
+	width:0px;
+	height:0px;
+	/*background-image: url(IMAGENES/3.jpg);			/*color del Div contenedor derecho*/
+	background-position: center;
+	color:red;
+}
+div#registro{
+	position:relative;
+	color:#41A569;
+	width:535px;
+	height:435px;
+	background-color:transparent;
+	margin-top:10px;
+	margin-left:300px;
+	margin-right:300px;
+	margin-bottom:70px; 
+}
+div#footer{
+	background-color:0;
+	position:relative;
+	color:BLACK;
+	width:1560px;
+	height:170px;
+	margin-top:10px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:0px;
+	
+}
+div#aside{
+	position:relative;
+	background-color:0;		/*#043FB8	*/
+	color:black;
+	float:left;
+	width:200px;
+	height:0px;
+	color:orange;
+	
+}
+/* div#header{    /* tamaño y posicion de el div de titulo */
+/* 	position:relative;
+	width:100%;
+	height:100%;
+} */ 
+div#tecnicas{
+	width:1500px;
+	height:1100px;
+	margin-top:30px;
+	margin-bottom:75px;
+	margin-left:50px;
+	margin-right:50px;
+	position:relative;
+	background-color:0;
+}
+div#video1{
+	float:left;
+	background-color:0;
+	margin-left:10px;
+	margin-top:10px;
+	width:0px;
+	height:300px;
+}
+div#texto1{
+	float:right;
+	text-align:center;
+	color:#23FF01;
+	font-size:40px;
+	background-color:0;
+	margin-right:10px;
+	margin-top:10px;	
+	width:750px;
+	height:350px;
+}
+div#video2{
+	float:left;
+	background-color:0;
+	margin-left:0px;
+	margin-top:350px;
+	width:0px;
+	height:300px;
+}
+div#texto2{
+	float:right;
+	text-align:center;
+	color:#41A569;
+	font-size:40px;
+	background-color:0;
+	margin-right:10px;
+	margin-top:10px;	
+	width:750px;
+	height:350px;
+}
+div#video3{
+	float:left;
+	background-color:0;
+	margin-left:0px;
+	margin-top:370px;
+	width:0px;
+	height:300px;
+}
+div#texto3{
+	float:right;
+	text-align:center;
+	color:#41A569;
+	font-size:40px;
+	background-color:0;
+	margin-right:10px;
+	margin-top:10px;	
+	width:750px;
+	height:350px;
+}
+
+h1{
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:#41A569;				/*color original de la imagen escudo#41A569*/
+}
+h5{
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:black;				/*color original de la imagen escudo#41A569*/
+}
+h2{
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h3{
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+h4{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h6{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+.form-horizontal h4{
+  color:#41A569;			/*#fff*/
+  text-shadow:5px 5px 5px  #fff;		/*sombra de la ltra del titulo de la pagina*/
+}
+.form-horizontal h1{
+  color:#41A569;			/*#fff*/
+  text-shadow:5px 5px 5px  #fff;		/*sombra de la ltra del titulo de la pagina*/
+}
+.navegacion{
+	
+		width: 1050px;
+		margin: 10px auto;
+		background: 0;			/*lightblue*/
+	
+}
+.navegacion ul{
+	list-style: fixed;
+	
+}
+.menu > li{
+	position: relative; 
+	display: inline-block;
+	
+}
+.menu > li a{
+	display: block;
+	padding: 25px 15px;
+	color: white;			/* color inicial del menu superior*/
+	font-family: "verdana";
+	text-decoration: none;
+
+}
+.menu > li a:hover{
+	color:#41A569; /*#CE7D35 color de la letra al estar el mause encima*/
+
+}
+.margen{
+	position:relaitive;
+	background:0;
+	margin-top:1px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	color:#41A569;
+}
+

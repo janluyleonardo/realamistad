@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;						
+	-webkit-box-sizing: border-box;	 /*le da formato a la pagina */
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	  
+}  
+
+body{
+	background-color:black;
+	background-image: url("/janluy-moreno/clientes web/REAL AMISTADfull/IMG/fondo_general.jpg");
+	background-attachment: fixed;
+    background-size: 100% 100%;
+} 
+div#registro{/*este le da f0rmato al cuadro de registro*/
+	position:relative;
+	color:#41A569;
+	width:535px;
+	height:435px;
+	background-color:transparent;
+	border-width: 10px;
+}
+div#footer{
+	
+	background-color:transparent;
+	color:BLACK;
+	width:99%;
+	height:155px;
+	margin-left:10px;
+	margin-right:10px;
+	
+}
+div#interfooter{
+	background-color:transparent;
+	position:relative;
+	color:black;
+	width:77%;
+	height:17px;
+	
+}
+div#interfooter1{
+	background-color:transparent;
+	position:relative;
+	color:black;
+	width:77%;
+	height:135px;
+	
+}
+h1{				/*con esto se le da formato al titulo de la pagina*/
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:#41A569;				/*color original de la imagen escudo#41A569*/
+}
+h2{				/*con este se le da formato a la letra de los tuitulos del cuadro de registro*/
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h3{
+	font-family:comic sans ms;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+h4{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:#41A569;
+}
+h5{
+	font-family:COMIC SANS MS;
+	font-size:50px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	text-decoration:underline;
+	color:black;				/*color original de la imagen escudo#41A569*/
+}
+h6{
+	font-family:COMIC SANS MS;
+	font-size:35px;
+	font-style:italic;
+	font-weight:bold;
+	text-align:center;
+	color:black;
+}
+.form-horizontal h4{
+  color:#41A569;			/*#fff*/
+  text-shadow:2px 2px 2px  black;		/*sombra de la ltra del titulo de la pagina*/
+}
+.form-horizontal h1{
+  color:#41A569;			/*#fff*/
+  text-shadow:2px 2px 2px  black;		/*sombra de la ltra del titulo de la pagina*/
+}
+.form-horizontal h2{
+  color:#41A569;			/*#fff*/
+  text-shadow:2px 2px 2px  black;		/*sombra de la ltra del titulo de la pagina*/
+}
+.margen{
+	position:relative;
+	background:red;
+	margin-top:1px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	color:red;
+}
+
